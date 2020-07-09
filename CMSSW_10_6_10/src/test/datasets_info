@@ -73,4 +73,5 @@ GetEntries: root <file>.root -b
 To obtain the JSON: wget https://cernbox.cern.ch/index.php/s/SwJ2vLDUfCf1CDm/download (renamed to json_file_rpin_2017.txt)
 
 To obtain the luminosity: compareJSON.py --and crab_projects/crab_DoubleMuon_Data_2017*/results/processedLumis.json json_file_rpin_2017.txt DoubleMuon_*.txt
+                          export PATH=$HOME/.local/bin:/cvmfs/cms-bril.cern.ch/brilconda3/bin:$PATH
                           brilcalc lumi -b "STABLE BEAMS" -i DoubleMuon_*.txt -u /fb --byls --normtag /cvmfs/cms-bril.cern.ch/cms-lumi-pog/Normtags/normtag_PHYSICS.json
