@@ -1,0 +1,19 @@
+executable = sub_dy_outof3+3.sh
+
+output     = test_dy_outof3+3/output_$(ProcId).out
+error      = test_dy_outof3+3/output_$(ProcId).err
+log        = test_dy_outof3+3/output_$(ProcId).log
+
+getenv     = True
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT_OR_EVICT
+transfer_input_files = /afs/cern.ch/user/m/malvesga/work/ProtonRecon/TEST/CMSSW_10_6_14/src/workspace/Dimuon_2020/ntp1_pileup.h , /afs/cern.ch/user/m/malvesga/work/ProtonRecon/TEST/CMSSW_10_6_14/src/workspace/Dimuon_2020/ntp1-miniaod_MC_pileup.C 
+
+environment = "X509_USER_PROXY=$ENV(HOME)/x509up_u61469"
+
+requirements = (OpSysAndVer =?= "CentOS7")
+
++JobFlavour = "espresso"
+
+queue arguments from ListOfFiles_dy_outof3+3.txt
+
