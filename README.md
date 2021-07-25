@@ -41,12 +41,15 @@ With everything set and done as explained in this tutorial, one should be able t
 ### Directly
 
 ```
+voms-proxy-init --voms cms 
 cmsRun RunGGLL_UL_*.py 
 ```
 
 ### Via CRAB
 
 ```
+voms-proxy-init --voms cms
+source /cvmfs/cms.cern.ch/crab3/crab.sh
 python crab_*.py 
 ```
 
