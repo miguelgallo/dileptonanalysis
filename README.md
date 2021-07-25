@@ -34,7 +34,10 @@ rm -rf DileptonAnalysis
 scram b -j8
 ```
 
-With everything set and done as explained in this tutorial, one should be able to run the scripts *test/RunGGLL_UL.py* and generate the Ntuples for the Dilepton analysis
+With everything set and done as explained in this tutorial, one is expected to have three folders installed:
+*test*, *DiffractiveForwardAnalysis* and *proton_simulation_validation*
+
+Also, one should be able to run the scripts *test/RunGGLL_UL.py* and generate the Ntuples for the Dilepton analysis
 
 ## Running 
 
