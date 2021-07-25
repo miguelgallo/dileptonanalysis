@@ -34,6 +34,6 @@ rm DileptonAnalysis
 scram b -j8
 ```
 
-With everything set and done as explained in this tutorial, one should be able to run the script *test/RunGGLL_UL*.py* and run the Ntuple generator for the Dilepton analysis
+With everything set and done as explained in this tutorial, one should be able to run the scripts *test/RunGGLL_UL.py* and run the Ntuple generator for the Dilepton analysis
 
 **PS.: Remember to change my addresses to the one using this tutorial, in the files at the *test* folder** 
