@@ -1,2 +1,0 @@
-DoubleMuon_UL2017C1.root
-DoubleMuon_UL2017E.root

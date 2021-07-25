@@ -1,8 +1,0 @@
-DoubleMuon_UL2017B.root
-DoubleMuon_UL2017C1.root
-DoubleMuon_UL2017C2.root
-DoubleMuon_UL2017D.root
-DoubleMuon_UL2017E.root
-DoubleMuon_UL2017F1.root
-DoubleMuon_UL2017F2.root
-DoubleMuon_UL2017F3.root
