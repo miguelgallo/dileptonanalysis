@@ -29,7 +29,7 @@ cd DileptonAnalysis
 git checkout CMSSW_10_6_20-UL_MiniAOD
 mv test/ ../
 cd .. 
-rm DileptonAnalysis
+rm -rf DileptonAnalysis
 
 scram b -j8
 ```
