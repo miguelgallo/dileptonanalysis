@@ -2,12 +2,12 @@
 
 ## Setting the workspace 
 
-Install the 10_6_20 release of CMSSW and set the environment
+Install the 10_6_21 release of CMSSW and set the environment
 
 ```
 export SCRAM_ARCH=slc7_amd64_gcc700 
-cmsrel CMSSW_10_6_20
-cd CMSSW_10_6_20/src/
+cmsrel CMSSW_10_6_21
+cd CMSSW_10_6_21/src/
 cmsenv 
 ```
 
